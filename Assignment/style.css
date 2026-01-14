@@ -339,6 +339,7 @@ nav div{
 .section6 {
     width: 90%;
     margin: 80px auto;
+    margin-bottom: 160px;
 }
 
 .hearding {
@@ -402,4 +403,35 @@ nav div{
 .buttonsection input{
     width: 100%;
     margin-bottom: 20px;
+    border: 2px solid #1E0A3D;
+    
+}
+footer{
+    width: 90%;
+    margin: 0 auto;
+}
+footer img{
+    width: 111px;
+    height: 23px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.foot2 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-weight: bold;
+}
+#last-content{
+    width: 90%;
+    margin: 0 auto;
 }
