@@ -234,7 +234,7 @@ nav div{
     object-fit: cover;
 }
 .section4{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 142px;
 }
@@ -322,4 +322,84 @@ nav div{
     border-top: 1px solid #EBEAED;
     background-image: linear-gradient(to right, transparent 33%, #EBEAED 33%, #EBEAED 34%, transparent 34%, transparent 66%, #EBEAED 66%, #EBEAED 67%, transparent 67%);
     border-radius: 0 0 10px 10px;
+}
+.section6{
+    width: 85%;
+    margin: 80px auto;
+}
+.hearding{
+    background: #ffffff;
+    padding: 50px 20px 30px 20px;
+    border: 1px solid #EBEAED;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 55px;
+}
+.section6 {
+    width: 90%;
+    margin: 80px auto;
+}
+
+.hearding {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #1E0A3D;
+    margin-bottom: 40px;
+}
+
+.mail-design {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center; 
+    gap: 20px;
+}
+
+.img-section {
+    grid-row: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+.mail-design img {
+    width: 80%; 
+    height: auto;
+}
+
+.mail-design p {
+    margin-top: 100px;
+    font-size: 1.1rem;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+.mail-design input {
+    
+    padding: 15px 25px;
+    width: 300px;
+    border: 1px solid #EBEAED;
+    border-radius: 50px; 
+    outline: none;
+    margin-right: 10px;
+}
+
+.mail-design button {
+    padding: 15px 35px;
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttonsection{
+    display: flex;
+    flex-direction: column;
+}
+.buttonsection input{
+    width: 100%;
+    margin-bottom: 20px;
 }
