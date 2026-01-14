@@ -106,6 +106,7 @@ nav div{
 .section2{
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 160px;
 }
 
 #card-head{
@@ -119,7 +120,7 @@ nav div{
     gap: 57px;
 }
 
-/* ✅ FLOATING CARD EFFECT */
+
 .card-item{
     width: 30%;
     padding: 40px 0;
@@ -170,4 +171,155 @@ nav div{
     color: white;
     border-radius: 10px;
     text-align: center;
+}
+.section3 {
+    width: 90vw;
+    height: 50vh;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+   
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-bottom: 146px;
+    
+}
+
+.section3-div1 {
+    flex: 1;
+    padding: 60px;
+}
+
+.section3-div1 h2 {
+    font-size: 2.5rem;
+    color: #1e0a3d;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.section3-div1 p {
+    font-size: 1.1rem;
+    color: #6d6d6d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px; 
+    color: #1e0a3d;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #f5f5f5;
+}
+
+.section3-div2 {
+    flex: 1;
+    height: 100%;
+}
+
+.section3-div2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.section4{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 142px;
+}
+.section4 h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.client-review{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+.client-review div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.client-review img{
+    height: 20.83%;
+    border-radius: 10%;
+}
+.client-review p{
+    font-size: 18px;
+    line-height: 28px; 
+    word-spacing: 5px;
+}
+.section5 {
+    width: 90%;
+    margin: 80px auto;
+}
+
+.section5 h2 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #1E0A3D;
+}
+
+.our-team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.our-team > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    border: 1px solid #EBEAED; 
+    border-radius: 10px;     
+    background: #fff;
+    transition: 0.3s;
+}
+
+.our-team > div:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.our-team img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.our-team p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1E0A3D;
+    margin-bottom: 30px;
+}
+
+.our-team > div::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #EBEAED;
+    background-image: linear-gradient(to right, transparent 33%, #EBEAED 33%, #EBEAED 34%, transparent 34%, transparent 66%, #EBEAED 66%, #EBEAED 67%, transparent 67%);
+    border-radius: 0 0 10px 10px;
 }
