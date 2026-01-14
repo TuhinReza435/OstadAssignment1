@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Inter', sans-serif;
+}
 
-/* ---------------- NAV ---------------- */
 nav img{
     width: 240px;
     height: 49px;
@@ -424,6 +426,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    font-weight: bolder;
 }
 .foot2 ul{
     display: flex;
